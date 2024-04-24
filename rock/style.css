@@ -1,0 +1,103 @@
+
+/* Color Palette
+pink: #e9008d
+orange: #f6841b
+yellow: #fcea08
+green: #6eb63f
+blue: #05aded */
+html {
+    background-color: #7757BD;
+}
+.hidden {
+    display: none;
+  }
+#game {
+    /* background-color: #7757BD; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .75em;
+    padding: 2em;
+ 
+    
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* font-family: 'Gloock', serif; */
+    font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+    color: white;
+ 
+}
+p#score {
+    /* background-color: #e9008d; */
+    /* border-radius: 40px; */
+    padding: 20px;
+    font-size: 2.2em;    
+    color: #fcea08;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+p#result,#computer-result {
+    font-size: .8em;
+    color: seashell;
+ 
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: #fcea08;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    font-family: 'Arvo', serif;
+    font-size: 2.7rem;
+    background-color: #e9008d;
+    /* border: dashed;
+    border-width: 4px 6px; */
+    border-radius: .5em;
+
+}
+
+#playing {
+}
+#group1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+
+ 
+}
+#myDropdown {
+    padding: .5rem;
+    box-shadow: 2px 2px 1px 1px #808080;
+    border-radius: .5em;
+    font-family: 'Arvo', serif;
+    font-size: .9em;
+    background-color: #C31D9D;
+    color: white;
+}
+#group2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+
+}
+
+button {
+    top:50%;
+    background-color:#C31D9D;
+    color: white;
+    border:none;
+    border-radius:10px;
+    font-size: 1.5rem;
+    font-family: 'Gloock', serif;
+    padding: .5em;
+ }

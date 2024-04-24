@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#circle {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #ff71ce;
+}
