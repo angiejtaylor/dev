@@ -4,11 +4,13 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  overflow: hidden; /* Ensure the body doesn't scroll */
 }
 
+
 #circle {
-  width: 800px;
-  height: 800px;
   border-radius: 50%;
   background-color: #ff71ce;
+  position: absolute; /* Absolute positioning for better control */
+
 }
